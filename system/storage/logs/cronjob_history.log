@@ -1456,3 +1456,10 @@ Stack trace:
 #2 /var/www/html/opencart/system/library/retailcrm/cron/history.php(3): require_once('...')
 #3 {main}
   thrown in /var/www/html/opencart/system/library/db/mysqli.php on line 10
+PHP Fatal error:  Uncaught Exception: Error: Could not make a database link using @localhost! in /var/www/html/opencart/system/library/db/mysqli.php:10
+Stack trace:
+#0 /var/www/html/opencart/system/library/db.php(31): DB\MySQLi->__construct()
+#1 /var/www/html/opencart/system/library/retailcrm/cron/dispatch.php(64): DB->__construct()
+#2 /var/www/html/opencart/system/library/retailcrm/cron/history.php(3): require_once('...')
+#3 {main}
+  thrown in /var/www/html/opencart/system/library/db/mysqli.php on line 10
