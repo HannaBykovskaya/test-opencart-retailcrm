@@ -1,0 +1,1458 @@
+
+PHP Warning:  Undefined array key "sub_total_sort_order" in /var/www/html/opencart/system/library/retailcrm/lib/history/Order.php on line 307
+
+PHP Warning:  Undefined array key "sub_total_sort_order" in /var/www/html/opencart/system/library/retailcrm/lib/history/Order.php on line 307
+
+PHP Warning:  Undefined array key "module_retailcrm_payment" in /var/www/html/opencart/system/library/retailcrm/lib/service/SettingsManager.php on line 31
+PHP Fatal error:  Uncaught TypeError: array_flip(): Argument #1 ($array) must be of type array, null given in /var/www/html/opencart/system/library/retailcrm/lib/history/Order.php:33
+Stack trace:
+#0 /var/www/html/opencart/system/library/retailcrm/lib/history/Order.php(33): array_flip()
+#1 /var/www/html/opencart/admin/model/extension/retailcrm/history.php(102): retailcrm\history\Order->__construct()
+#2 /var/www/storage/modification/system/engine/loader.php(248): ModelExtensionRetailcrmHistory->request()
+#3 /var/www/html/opencart/system/engine/proxy.php(47): Loader->{closure}()
+#4 /var/www/html/opencart/admin/controller/extension/module/retailcrm.php(492): Proxy->__call()
+#5 /var/www/storage/modification/system/engine/action.php(79): ControllerExtensionModuleRetailcrm->history()
+#6 /var/www/html/opencart/system/engine/router.php(67): Action->execute()
+#7 /var/www/html/opencart/system/engine/router.php(56): Router->execute()
+#8 /var/www/html/opencart/system/library/retailcrm/cron/dispatch.php(181): Router->dispatch()
+#9 /var/www/html/opencart/system/library/retailcrm/cron/history.php(3): require_once('...')
+#10 {main}
+  thrown in /var/www/html/opencart/system/library/retailcrm/lib/history/Order.php on line 33
+PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /var/www/html/opencart/admin/model/extension/retailcrm/history.php:321
+Stack trace:
+#0 /var/www/html/opencart/admin/model/extension/retailcrm/history.php(140): ModelExtensionRetailcrmHistory->updateCustomers()
+#1 /var/www/storage/modification/system/engine/loader.php(248): ModelExtensionRetailcrmHistory->request()
+#2 /var/www/html/opencart/system/engine/proxy.php(47): Loader->{closure}()
+#3 /var/www/html/opencart/admin/controller/extension/module/retailcrm.php(492): Proxy->__call()
+#4 /var/www/storage/modification/system/engine/action.php(79): ControllerExtensionModuleRetailcrm->history()
+#5 /var/www/html/opencart/system/engine/router.php(67): Action->execute()
+#6 /var/www/html/opencart/system/engine/router.php(56): Router->execute()
+#7 /var/www/html/opencart/system/library/retailcrm/cron/dispatch.php(181): Router->dispatch()
+#8 /var/www/html/opencart/system/library/retailcrm/cron/history.php(3): require_once('...')
+#9 {main}
+  thrown in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 321
+PHP Fatal error:  Uncaught Error: Call to undefined method ModelExtensionRetailcrmHistory::getCountryId() in /var/www/html/opencart/admin/model/extension/retailcrm/history.php:345
+Stack trace:
+#0 /var/www/html/opencart/admin/model/extension/retailcrm/history.php(331): ModelExtensionRetailcrmHistory->updateCustomerAddress()
+#1 /var/www/html/opencart/admin/model/extension/retailcrm/history.php(140): ModelExtensionRetailcrmHistory->updateCustomers()
+#2 /var/www/storage/modification/system/engine/loader.php(248): ModelExtensionRetailcrmHistory->request()
+#3 /var/www/html/opencart/system/engine/proxy.php(47): Loader->{closure}()
+#4 /var/www/html/opencart/admin/controller/extension/module/retailcrm.php(492): Proxy->__call()
+#5 /var/www/storage/modification/system/engine/action.php(79): ControllerExtensionModuleRetailcrm->history()
+#6 /var/www/html/opencart/system/engine/router.php(67): Action->execute()
+#7 /var/www/html/opencart/system/engine/router.php(56): Router->execute()
+#8 /var/www/html/opencart/system/library/retailcrm/cron/dispatch.php(181): Router->dispatch()
+#9 /var/www/html/opencart/system/library/retailcrm/cron/history.php(3): require_once('...')
+#10 {main}
+  thrown in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 345
+
+PHP Warning:  Undefined array key "operator_comment" in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 308
+Operator comment: 
+
+PHP Warning:  Undefined array key "operator_comment" in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 308
+Operator comment: 
+Operator comment: 
+Custom fields: Array
+(
+    [children] => 
+)
+
+Updated customer data: Array
+(
+    [customer_id] => 3
+    [customer_group_id] => 1
+    [store_id] => 0
+    [language_id] => 0
+    [firstname] => Иванко
+    [lastname] => Петрович
+    [email] => petr@gmail.com
+    [telephone] => 123456
+    [fax] => 
+    [password] => 
+    [salt] => MNSBclXES
+    [cart] => 
+    [wishlist] => 
+    [newsletter] => 0
+    [address_id] => 1
+    [custom_field] => {"children":""}
+    [ip] => 
+    [status] => 1
+    [safe] => 0
+    [token] => 
+    [code] => 
+    [date_added] => 2025-04-02 10:17:48
+    [operator_comment] => 
+    [children] => 
+    [affiliate] => 
+    [address] => Array
+        (
+            [1] => Array
+                (
+                    [address_id] => 1
+                    [customer_id] => 3
+                    [firstname] => Иванко
+                    [lastname] => Петрович
+                    [company] => 
+                    [address_1] => улица Советская
+                    [address_2] => 
+                    [postcode] => 123435
+                    [city] => Горно-Алтайск
+                    [zone_id] => 0
+                    [zone] => 
+                    [zone_code] => 
+                    [country_id] => 176
+                    [country] => Russian Federation
+                    [iso_code_2] => RU
+                    [iso_code_3] => RUS
+                    [address_format] => 
+                    [custom_field] => Array
+                        (
+                        )
+
+                    [default] => 1
+                )
+
+        )
+
+)
+
+
+PHP Warning:  Undefined variable $url in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 352
+
+PHP Unknown:  file_get_contents(): Passing null to parameter #1 ($filename) of type string is deprecated in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 352
+PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /var/www/html/opencart/admin/model/extension/retailcrm/history.php:352
+Stack trace:
+#0 /var/www/html/opencart/admin/model/extension/retailcrm/history.php(352): file_get_contents()
+#1 /var/www/html/opencart/admin/model/extension/retailcrm/history.php(139): ModelExtensionRetailcrmHistory->updateCustomers()
+#2 /var/www/storage/modification/system/engine/loader.php(248): ModelExtensionRetailcrmHistory->request()
+#3 /var/www/html/opencart/system/engine/proxy.php(47): Loader->{closure}()
+#4 /var/www/html/opencart/admin/controller/extension/module/retailcrm.php(492): Proxy->__call()
+#5 /var/www/storage/modification/system/engine/action.php(79): ControllerExtensionModuleRetailcrm->history()
+#6 /var/www/html/opencart/system/engine/router.php(67): Action->execute()
+#7 /var/www/html/opencart/system/engine/router.php(56): Router->execute()
+#8 /var/www/html/opencart/system/library/retailcrm/cron/dispatch.php(181): Router->dispatch()
+#9 /var/www/html/opencart/system/library/retailcrm/cron/history.php(3): require_once('...')
+#10 {main}
+  thrown in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 352
+Operator comment: 
+Custom fields: 
+Updated customer data: Array
+(
+    [customer_id] => 3
+    [customer_group_id] => 1
+    [store_id] => 0
+    [language_id] => 0
+    [firstname] => Иванко
+    [lastname] => Петрович
+    [email] => petr@gmail.com
+    [telephone] => 123456
+    [fax] => 
+    [password] => 
+    [salt] => MNSBclXES
+    [cart] => 
+    [wishlist] => 
+    [newsletter] => 0
+    [address_id] => 1
+    [custom_field] => "\"{\\\"children\\\":\\\"\\\"}\""
+    [ip] => 
+    [status] => 1
+    [safe] => 0
+    [token] => 
+    [code] => 
+    [date_added] => 2025-04-02 10:17:48
+    [operator_comment] => 
+    [children] => 
+    [affiliate] => 
+    [address] => Array
+        (
+            [1] => Array
+                (
+                    [address_id] => 1
+                    [customer_id] => 3
+                    [firstname] => Иванко
+                    [lastname] => Петрович
+                    [company] => 
+                    [address_1] => улица Советская
+                    [address_2] => 
+                    [postcode] => 123435
+                    [city] => Горно-Алтайск
+                    [zone_id] => 0
+                    [zone] => 
+                    [zone_code] => 
+                    [country_id] => 176
+                    [country] => Russian Federation
+                    [iso_code_2] => RU
+                    [iso_code_3] => RUS
+                    [address_format] => 
+                    [custom_field] => Array
+                        (
+                        )
+
+                    [default] => 1
+                )
+
+        )
+
+)
+
+Operator comment: 
+Custom fields: 
+Updated customer data: Array
+(
+    [customer_id] => 5
+    [customer_group_id] => 1
+    [store_id] => 0
+    [language_id] => 0
+    [firstname] => Anya
+    [lastname] => By
+    [email] => by@gmail.com
+    [telephone] => 123456
+    [fax] => 
+    [password] => 
+    [salt] => ugdfz1YfS
+    [cart] => 
+    [wishlist] => 
+    [newsletter] => 0
+    [address_id] => 5
+    [custom_field] => "\"{\\\"children\\\":\\\"\\\"}\""
+    [ip] => 
+    [status] => 1
+    [safe] => 0
+    [token] => 
+    [code] => 
+    [date_added] => 2025-04-02 11:21:24
+    [operator_comment] => 
+    [children] => 
+    [affiliate] => 
+    [address] => Array
+        (
+            [5] => Array
+                (
+                    [address_id] => 5
+                    [customer_id] => 5
+                    [firstname] => Anya
+                    [lastname] => By
+                    [company] => 
+                    [address_1] => 1234, Belarus, Minsk, Main street,
+                    [address_2] => 
+                    [postcode] => 1234
+                    [city] => Могилев
+                    [zone_id] => 0
+                    [zone] => 
+                    [zone_code] => 
+                    [country_id] => 20
+                    [country] => Belarus
+                    [iso_code_2] => BY
+                    [iso_code_3] => BLR
+                    [address_format] => 
+                    [custom_field] => Array
+                        (
+                        )
+
+                    [default] => 1
+                )
+
+        )
+
+)
+
+Operator comment: 
+Custom fields: 
+Updated customer data: Array
+(
+    [customer_id] => 3
+    [customer_group_id] => 1
+    [store_id] => 0
+    [language_id] => 0
+    [firstname] => Иванко
+    [lastname] => Петрович
+    [email] => petr@gmail.com
+    [telephone] => 123456
+    [fax] => 
+    [password] => 
+    [salt] => MNSBclXES
+    [cart] => 
+    [wishlist] => 
+    [newsletter] => 0
+    [address_id] => 1
+    [custom_field] => "\"\\\"{\\\\\\\"children\\\\\\\":\\\\\\\"\\\\\\\"}\\\"\""
+    [ip] => 
+    [status] => 1
+    [safe] => 0
+    [token] => 
+    [code] => 
+    [date_added] => 2025-04-02 10:17:48
+    [operator_comment] => 
+    [children] => 
+    [affiliate] => 
+    [address] => Array
+        (
+            [1] => Array
+                (
+                    [address_id] => 1
+                    [customer_id] => 3
+                    [firstname] => Иванко
+                    [lastname] => Петрович
+                    [company] => 
+                    [address_1] => улица Советская
+                    [address_2] => 
+                    [postcode] => 123435
+                    [city] => Горно-Алтайск
+                    [zone_id] => 0
+                    [zone] => 
+                    [zone_code] => 
+                    [country_id] => 176
+                    [country] => Russian Federation
+                    [iso_code_2] => RU
+                    [iso_code_3] => RUS
+                    [address_format] => 
+                    [custom_field] => Array
+                        (
+                        )
+
+                    [default] => 1
+                )
+
+        )
+
+)
+
+Operator comment: 
+Custom fields: 
+Updated customer data: Array
+(
+    [customer_id] => 5
+    [customer_group_id] => 1
+    [store_id] => 0
+    [language_id] => 0
+    [firstname] => Anya
+    [lastname] => By
+    [email] => by@gmail.com
+    [telephone] => 123456
+    [fax] => 
+    [password] => 
+    [salt] => ugdfz1YfS
+    [cart] => 
+    [wishlist] => 
+    [newsletter] => 0
+    [address_id] => 5
+    [custom_field] => "\"\\\"{\\\\\\\"children\\\\\\\":\\\\\\\"\\\\\\\"}\\\"\""
+    [ip] => 
+    [status] => 1
+    [safe] => 0
+    [token] => 
+    [code] => 
+    [date_added] => 2025-04-02 11:21:24
+    [operator_comment] => 
+    [children] => 
+    [affiliate] => 
+    [address] => Array
+        (
+            [5] => Array
+                (
+                    [address_id] => 5
+                    [customer_id] => 5
+                    [firstname] => Anya
+                    [lastname] => By
+                    [company] => 
+                    [address_1] => 1234, Belarus, Minsk, Main street,
+                    [address_2] => 
+                    [postcode] => 1234
+                    [city] => Могилев
+                    [zone_id] => 0
+                    [zone] => 
+                    [zone_code] => 
+                    [country_id] => 20
+                    [country] => Belarus
+                    [iso_code_2] => BY
+                    [iso_code_3] => BLR
+                    [address_format] => 
+                    [custom_field] => Array
+                        (
+                        )
+
+                    [default] => 1
+                )
+
+        )
+
+)
+
+PHP Fatal error:  Uncaught Error: Cannot unset string offsets in /var/www/html/opencart/admin/model/extension/retailcrm/history.php:326
+Stack trace:
+#0 /var/www/html/opencart/admin/model/extension/retailcrm/history.php(139): ModelExtensionRetailcrmHistory->updateCustomers()
+#1 /var/www/storage/modification/system/engine/loader.php(248): ModelExtensionRetailcrmHistory->request()
+#2 /var/www/html/opencart/system/engine/proxy.php(47): Loader->{closure}()
+#3 /var/www/html/opencart/admin/controller/extension/module/retailcrm.php(492): Proxy->__call()
+#4 /var/www/storage/modification/system/engine/action.php(79): ControllerExtensionModuleRetailcrm->history()
+#5 /var/www/html/opencart/system/engine/router.php(67): Action->execute()
+#6 /var/www/html/opencart/system/engine/router.php(56): Router->execute()
+#7 /var/www/html/opencart/system/library/retailcrm/cron/dispatch.php(181): Router->dispatch()
+#8 /var/www/html/opencart/system/library/retailcrm/cron/history.php(3): require_once('...')
+#9 {main}
+  thrown in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 326
+
+PHP Warning:  Undefined array key "children" in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 311
+
+PHP Warning:  Undefined array key "operator_comment" in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 312
+
+PHP Warning:  Undefined array key "children" in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 311
+
+PHP Warning:  Undefined array key "operator_comment" in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 312
+
+PHP Warning:  Undefined array key "children" in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 311
+
+PHP Warning:  Undefined array key "operator_comment" in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 312
+
+PHP Warning:  Undefined variable $desired_delivery_datetimer in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 292
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 293
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 301
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 302
+
+PHP Warning:  Undefined variable $need_call in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+
+PHP Warning:  Undefined variable $desired_delivery_datetime in /var/www/html/opencart/admin/model/extension/retailcrm/history.php on line 305
+PHP Fatal error:  Uncaught Exception: Error: Could not make a database link using @localhost! in /var/www/html/opencart/system/library/db/mysqli.php:10
+Stack trace:
+#0 /var/www/html/opencart/system/library/db.php(31): DB\MySQLi->__construct()
+#1 /var/www/html/opencart/system/library/retailcrm/cron/dispatch.php(64): DB->__construct()
+#2 /var/www/html/opencart/system/library/retailcrm/cron/history.php(3): require_once('...')
+#3 {main}
+  thrown in /var/www/html/opencart/system/library/db/mysqli.php on line 10
